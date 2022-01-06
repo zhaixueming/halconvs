@@ -41,4 +41,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Halcon\bin\halcon.dll" />
+    <None Include="Halcon\bin\halconcpp.dll" />
+    <None Include="Halcon\bin\hcanvas.dll" />
+  </ItemGroup>
 </Project>

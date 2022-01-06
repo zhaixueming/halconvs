@@ -100,6 +100,11 @@
     <ClCompile Include="halconvs.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Halcon\bin\halcon.dll" />
+    <None Include="Halcon\bin\halconcpp.dll" />
+    <None Include="Halcon\bin\hcanvas.dll" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />
